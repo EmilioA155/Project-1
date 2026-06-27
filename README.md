@@ -1,21 +1,21 @@
 # Project-1
 QParking Project
 
-----------------------------------------
+
 Group Members:
-----------------------------------------
+
 - Emilio Arellano
 - Drew
 - Lauren
 
-----------------------------------------
+
 How to Compile:
-----------------------------------------
+
 g++ -std=c++11 -Wall -Wextra -o qparking *.cpp
 
-----------------------------------------
+
 How to Run:
-----------------------------------------
+
 ./qparking
 
 When prompted, enter the configuration filename:
@@ -28,9 +28,9 @@ The program will:
 4. Process parking interactions (P: pickup, D: drop-off)
 5. Output the final garage state to: final_output.txt
 
-----------------------------------------
+
 Files Included:
-----------------------------------------
+
 Source Files:
 - main.cpp
 - config.h / config.cpp
@@ -46,9 +46,9 @@ Input Files:
 - customers.csv
 - samples.txt
 
-----------------------------------------
+
 Project Description:
-----------------------------------------
+
 This project simulates a valet parking system called QParking.
 
 The system manages multiple parking garages using a stack-based (LIFO) approach. It reads input from configuration and CSV files, initializes the parking structure, and processes a sequence of customer interactions.
@@ -63,9 +63,9 @@ Major functionality includes:
 - Updating garage state after each interaction
 - Writing the final garage layout to an output file
 
-----------------------------------------
+
 Notes:
-----------------------------------------
+
 - Parking currently assigns the first available spot
 - Pickup removes the car directly from the garage
 - Input files must be correctly formatted and located in the same directory
