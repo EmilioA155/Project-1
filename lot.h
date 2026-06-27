@@ -33,5 +33,5 @@ public:
 
     GarageSystem();
 };
-
+void readOccupancy(GarageSystem& sys);
 #endif

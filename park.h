@@ -3,6 +3,6 @@
 
 #include "lot.h"
 
-int assignParking(GarageSystem& sys, const Customer& c);
+void assignParking(GarageSystem& sys, const Customer& c);
 
 #endif

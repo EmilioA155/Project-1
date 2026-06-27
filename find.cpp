@@ -1,4 +1,6 @@
+
 #include "find.h"
+#include "lot.h"
 
 void locateCar(const GarageSystem& sys, int id, int& garage, int& slot) {
     for (int g = 0; g < sys.m; g++) {
@@ -13,3 +15,4 @@ void locateCar(const GarageSystem& sys, int id, int& garage, int& slot) {
     garage = -1;
     slot = -1;
 }
+

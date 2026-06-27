@@ -6,3 +6,4 @@
 void locateCar(const GarageSystem& sys, int id, int& garage, int& slot);
 
 #endif
+
