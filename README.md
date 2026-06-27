@@ -1,26 +1,71 @@
 # Project-1
 QParking Project
 
+----------------------------------------
 Group Members:
-- Emilio, Drew, Lauren
+----------------------------------------
+- Emilio Arellano
+- Drew
+- Lauren
 
+----------------------------------------
 How to Compile:
-g++ -Wall -Wextra -o qparking main.cpp lot.cpp config.cpp status.cpp
+----------------------------------------
+g++ -std=c++11 -Wall -Wextra -o qparking *.cpp
 
+----------------------------------------
 How to Run:
+----------------------------------------
 ./qparking
-When the program starts, type the name of the configuration file.
-The program will read the config file, load the initial garage layout,
-and create a file called initial_output.txt that shows the starting state
-of the parking lot.
 
+When prompted, enter the configuration filename:
+config.txt
+
+The program will:
+1. Read the configuration file
+2. Load the initial garage occupancy
+3. Load customer data
+4. Process parking interactions (P: pickup, D: drop-off)
+5. Output the final garage state to: final_output.txt
+
+----------------------------------------
 Files Included:
-- lot.h / lot.cpp
-- config.h / config.cpp
-- status.h / status.cpp
+----------------------------------------
+Source Files:
 - main.cpp
+- config.h / config.cpp
+- lot.h / lot.cpp
+- park.h / park.cpp
+- reconfig.h / reconfigured.cpp
+- samples.h / samples.cpp
+- status.h / status.cpp
 
-Description:
-This milestone reads the configuration file, loads the initial occupancy
-CSV file, and outputs the initial parking lot state. No interactions or
-parking logic are implemented yet.
+Input Files:
+- config.txt
+- occupancy.csv
+- customers.csv
+- samples.txt
+
+----------------------------------------
+Project Description:
+----------------------------------------
+This project simulates a valet parking system called QParking.
+
+The system manages multiple parking garages using a stack-based (LIFO) approach. It reads input from configuration and CSV files, initializes the parking structure, and processes a sequence of customer interactions.
+
+Major functionality includes:
+- Reading and parsing configuration and data files
+- Initializing parking garage layout
+- Assigning parking spaces to incoming vehicles
+- Locating cars within garages
+- Processing pickup (P:) requests
+- Processing drop-off (D:) requests
+- Updating garage state after each interaction
+- Writing the final garage layout to an output file
+
+----------------------------------------
+Notes:
+----------------------------------------
+- Parking currently assigns the first available spot
+- Pickup removes the car directly from the garage
+- Input files must be correctly formatted and located in the same directory
