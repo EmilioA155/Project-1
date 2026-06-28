@@ -1,3 +1,10 @@
+D: "Alice Jones", "555-111-2222", 8:00am
+D: "Bobby Willis", "555-222-3333", 8:45am
 P: 101
-D: John,1234567890,10
+D: "John Smith", "555-333-4444", 9:30am
 P: 102
+D: "Diana Princess", "555-444-5555", 11:15am
+P: 103
+D: "Evan Wright", "555-666-7777", 1:00pm
+P: 104
+P: 105
