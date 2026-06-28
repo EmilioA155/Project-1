@@ -5,8 +5,9 @@ QParking Project
 Group Members:
 
 - Emilio Arellano
-- Drew
-- Lauren
+- Drew Rankin
+- Lauren Gordon
+- Kacy Lovely
 
 
 How to Compile:
