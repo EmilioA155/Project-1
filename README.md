@@ -7,7 +7,7 @@ Group Members:
 - Emilio Arellano
 - Drew Rankin
 - Lauren Gordon
-- Kacy Lovely
+- Kacy Hines
 
 
 How to Compile:
